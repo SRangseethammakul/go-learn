@@ -1,7 +1,7 @@
 package main
 
 import (
-	"githuc.com/srangseethammakul/gobasic/flowcontrol"
+	"githuc.com/srangseethammakul/gobasic/arrayandslices"
 )
 
 func main() {
@@ -11,5 +11,6 @@ func main() {
 	// variables.Learn()
 
 	// functions.Learn()
-	flowcontrol.Learn()
+	// flowcontrol.Learn()
+	arrayandslices.Learn()
 }
