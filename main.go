@@ -1,6 +1,8 @@
 package main
 
-import "githuc.com/srangseethammakul/gobasic/functions"
+import (
+	"githuc.com/srangseethammakul/gobasic/flowcontrol"
+)
 
 func main() {
 	// fmt.Println("Hello World!")
@@ -8,5 +10,6 @@ func main() {
 
 	// variables.Learn()
 
-	functions.Learn()
+	// functions.Learn()
+	flowcontrol.Learn()
 }
