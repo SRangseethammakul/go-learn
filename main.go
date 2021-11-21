@@ -1,8 +1,6 @@
 package main
 
-import (
-	"githuc.com/srangseethammakul/gobasic/arrayandslices"
-)
+import "githuc.com/srangseethammakul/gobasic/mapandstruct"
 
 func main() {
 	// fmt.Println("Hello World!")
@@ -12,5 +10,6 @@ func main() {
 
 	// functions.Learn()
 	// flowcontrol.Learn()
-	arrayandslices.Learn()
+	// arrayandslices.Learn()
+	mapandstruct.Learn()
 }
