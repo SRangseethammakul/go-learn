@@ -1,6 +1,8 @@
 package main
 
-import "githuc.com/srangseethammakul/gobasic/mapandstruct"
+import (
+	"githuc.com/srangseethammakul/gobasic/pointers"
+)
 
 func main() {
 	// fmt.Println("Hello World!")
@@ -11,5 +13,6 @@ func main() {
 	// functions.Learn()
 	// flowcontrol.Learn()
 	// arrayandslices.Learn()
-	mapandstruct.Learn()
+	// mapandstruct.Learn()
+	pointers.Learn()
 }
