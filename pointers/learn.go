@@ -38,3 +38,10 @@ type student struct {
 func setName(std *student) {
 	std.name = "Tarn"
 }
+
+/*
+ & ถ้าวางไว้หน้าตัวแปร เป็น operator ไว้อ่าน memory address
+ * ถ้าวางไว้หน้าตัวแปร เป็นการดึงค่าจาก memory address นั้นๆๆ เรียกว่า Dereference
+
+ *  ถ้าวางไว้หน้าชนิดข้อมูล (Type) เช่น *student, *int => เป็นการเก็บค่า memory address ถ้าว่างเป็น nil
+*/
